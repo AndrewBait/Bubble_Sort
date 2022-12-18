@@ -1,8 +1,42 @@
 # MANUAL BUUBLE SORT
 
-Um tipo de bolha faz uso de uma matriz e algum tipo de mecanismo de "troca". A maioria das linguagens de programação possui uma função interna para trocar elementos de uma matriz. Mesmo que não exista uma função de troca, apenas algumas linhas extras de código são necessárias para armazenar um elemento de matriz em um campo temporário para trocar um segundo elemento em seu lugar. Em seguida, o primeiro elemento é movido para fora do campo temporário e volta para a matriz na posição do segundo elemento.
-Aqui está um exemplo simples de como funciona uma classificação de bolhas: suponha que você tenha uma fileira de blocos de brinquedos infantis com letras neles. Eles estão em ordem aleatória e você deseja organizá-los em ordem alfabética da esquerda para a direita.
+1- Comece percorrendo a lista de elementos.
+2- Compare os dois primeiros elementos da lista. Se o primeiro elemento for maior que o segundo elemento, troque suas posições.
+3- Passe para o próximo par de elementos e repita a comparação. Se o segundo elemento for maior que o terceiro elemento, troque suas posições.
+4- Continue esse processo até chegar ao final da lista.
+5- Depois de completar uma passagem pela lista, verifique se alguma troca foi feita. Se nenhuma troca foi feita, a lista é classificada e o algoritmo pode parar. Se foram feitas trocas, volte ao passo 1 e repita o processo até que a lista esteja ordenada.
 
-Etapa 1. Comece com o primeiro bloco. Neste caso, a letra G . (Figura 1.)
+Aqui está um exemplo usando uma lista de números:
 
-![imagem1](https://github.com/AndrewBait/Bubble_Sort/blob/c8e76e8cc624194b820119f8b5e3b73d70f82961/IMAGENS/Bubble01.png)
+[5, 3, 7, 2, 8, 1, 9, 6, 4]
+
+A primeira passagem pela lista compara os dois primeiros elementos, 5 e 3. Como 3 é menor que 5, eles são trocados e a lista se torna:
+
+[3, 5, 7, 2, 8, 1, 9, 6, 4]
+
+A próxima passagem compara o segundo e terceiro elementos, 5 e 7. Como 7 é maior que 5, eles não são trocados. A lista permanece:
+
+[3, 5, 7, 2, 8, 1, 9, 6, 4]
+
+A próxima passagem compara o terceiro e o quarto elementos, 7 e 2. Como 2 é menor que 7, eles são trocados e a lista se torna:
+
+[3, 5, 2, 7, 8, 1, 9, 6, 4]
+
+Esse processo continua até que o final da lista seja alcançado. No final da primeira passagem, a lista é:
+
+[3, 5, 2, 7, 1, 8, 6, 4, 9]
+
+Como pelo menos uma troca foi feita durante a primeira passagem, voltamos ao passo 1 e repetimos o processo. A segunda passagem pela lista resulta em:
+
+[3, 2, 5, 1, 7, 4, 6, 8, 9]
+
+Na terceira passagem, a lista se torna:
+
+[2, 1, 3, 4, 5, 6, 7, 8, 9]
+
+Na quarta passagem, a lista se torna:
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Como nenhuma troca foi feita na quarta passagem, a lista agora está classificada e o algoritmo pode parar.
+
