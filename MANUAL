@@ -1,0 +1,8 @@
+# MANUAL BUUBLE SORT
+
+Um tipo de bolha faz uso de uma matriz e algum tipo de mecanismo de "troca". A maioria das linguagens de programação possui uma função interna para trocar elementos de uma matriz. Mesmo que não exista uma função de troca, apenas algumas linhas extras de código são necessárias para armazenar um elemento de matriz em um campo temporário para trocar um segundo elemento em seu lugar. Em seguida, o primeiro elemento é movido para fora do campo temporário e volta para a matriz na posição do segundo elemento.
+Aqui está um exemplo simples de como funciona uma classificação de bolhas: suponha que você tenha uma fileira de blocos de brinquedos infantis com letras neles. Eles estão em ordem aleatória e você deseja organizá-los em ordem alfabética da esquerda para a direita.
+
+Etapa 1. Comece com o primeiro bloco. Neste caso, a letra G . (Figura 1.)
+
+![imagem1](https://github.com/AndrewBait/Bubble_Sort/blob/c8e76e8cc624194b820119f8b5e3b73d70f82961/IMAGENS/Bubble01.png)
