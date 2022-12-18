@@ -9,7 +9,7 @@ O objetivo deste projeto tem como apresentar o Bubble Sort, deixando claro a com
 
 ## Vídeo explicando BUBBLE SORT
 
-Clique na imagem ou no link p assistir para assistir: [video bubble sort](https://youtu.be/ZZjTHWj5NY4) 
+Clique na imagem ou no link para assistir: [video bubble sort](https://youtu.be/ZZjTHWj5NY4) 
 
 [![video](https://github.com/AndrewBait/Bubble_Sort/blob/main/IMAGENS/Screenshot_20221218_021150_PowerPoint.jpg)](https://youtu.be/ZZjTHWj5NY4)
 
