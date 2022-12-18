@@ -1,11 +1,11 @@
 # BUBBLE SORT - Algoritmo de Ordenação
-Algoritmo de ordenação Bubble sort
+
 Implementação do Bubble Sort - Estrutura de Dados - IFSP
 Aluno: Andrew Silva de Oliveira
 Professor Marques Moreira de Sousa
 
 # Objetivo do Trabalho
-O objetivo deste projeto tem como apresentar o Bubble Sort, deicando claro a complexidade do método para o pior caso, caso médio e melhor caso, evidenciando a razão ela qual cada um dos casos acontece
+O objetivo deste projeto tem como apresentar o Bubble Sort, deixando claro a complexidade do método para o pior caso, caso médio e melhor caso, evidenciando a razão pela qual cada um dos casos acontece
 
 ## Vídeo explicando BUBBLE SORT
 
