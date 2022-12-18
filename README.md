@@ -15,7 +15,7 @@ Clique na imagem ou no link para assistir: [video bubble sort](https://youtu.be/
 
 ## Manual
 
-Segue o manual [manual](https://github.com/AndrewBait/Bubble_Sort/blob/main/MANUAL)
+Segue o [MANUAL](https://github.com/AndrewBait/Bubble_Sort/blob/main/MANUAL)
 
 # Buble sort
 O Bubble Sort é provavelmente o primeiro módulo razoavelmente complexo que qualquer programador iniciante precisa escrever. É uma construção muito simples que apresenta ao aluno os fundamentos de como a classificação funciona.
